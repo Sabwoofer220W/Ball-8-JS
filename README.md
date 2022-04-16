@@ -33,5 +33,5 @@ Magic 8 ball — шар, внешне напоминающий бильярдн�
 ● Весьма сомнительно  
 
 *Дизайн:*
-![Image text](https://github.com/Sabwoofer220W/Ball-8-JS/blob/master/example/example1.png)
-![Image text](https://github.com/Sabwoofer220W/Ball-8-JS/blob/master/example/example1.png)
+![Image text](https://github.com/Sabwoofer220W/Ball-8-JS/blob/master/example/example1.png)  
+![Image text](https://github.com/Sabwoofer220W/Ball-8-JS/blob/master/example/example2.png)
