@@ -1,0 +1,145 @@
+.body{
+margin: 0;
+padding: 0;
+
+}
+
+.Main_ball {
+
+  position: relative;
+/*  top:50px;*/
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.ball {
+width: 600px;
+}
+
+.animate{
+  animation: 0.2s move forwards;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: 4;
+  animation-direction:alternate;
+}
+
+@keyframes move {
+	from {
+		margin-left: 0%;
+	}
+	to {
+		margin-left: 10%;
+	}
+}
+
+.otvet {
+  font-family: TAHOMA;
+  animation: 1s otvet_vis forwards;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction:alternate;
+
+  background-image: url(otvet.png) ;
+  position:absolute;
+  cursor:pointer;
+  width: 100%;
+  height: 100%;
+  background-size: 100% auto;
+  opacity:0;
+  transition: 1s;
+}
+
+@keyframes otvet_vis {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+.text {
+  color:white;
+  text-align:center;
+   position: relative;
+   top:270px;
+}
+
+.Vopros {
+  font-family: TAHOMA;
+  position:relative;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.input {
+  text-align: center;
+border: none;
+  width:100%;
+  font-size: 25px;
+  box-sizing: border-box;
+	 /*border: 2px solid black;*/
+   border-bottom: 2px solid black;
+   border-top: 2px solid black;
+		transition: all 1s ease-out;
+    padding: 3px;
+}
+.input:focus {
+	box-shadow: -1px -1px 32px 1px #a970db;
+/*	border: 2px solid #a970db;*/
+	border-color: #a970db;
+}
+
+.ask {
+   background-color: #a970db;
+   font-size: 14px;
+   padding: 7px;
+   margin: 5px;
+   width: 100px;
+  color:white;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.ask:hover {
+  background-color: #C71585;
+}
+.ask:active {
+  background-color: #FF1493;
+}
+
+.claer {
+    border: none;
+     background-color: white;
+     margin: 5px;
+     font-size: 14px;
+     padding: 7px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.claer:hover {
+  background-color: red;
+  color:white;
+}
+.claer:active {
+  background-color: black;
+  color:white;
+}
+
+@media (max-width: 800px) {
+
+  .ball {
+width: 800px;
+}
+.Main_ball {
+  width: 800px;
+
+}
+
+.text {
+   top:380px;
+}
+
+}
